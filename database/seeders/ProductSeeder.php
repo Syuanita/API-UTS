@@ -14,21 +14,21 @@ class ProductSeeder extends Seeder
     {
         DB::table('products')->insert([
             [
-                'name' => 'Smartphone',
+                'name' => 'Smartphone1',
                 'price' => 299.99,
                 'description' => 'A high-quality smartphone',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
             [
-                'name' => 'T-shirt',
+                'name' => 'T-shirt1',
                 'price' => 19.99,
                 'description' => 'A comfortable cotton T-shirt',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
             [
-                'name' => 'Microwave Oven',
+                'name' => 'Microwave Oven1',
                 'price' => 99.99,
                 'description' => 'A fast and efficient microwave oven',
                 'created_at' => now(),
